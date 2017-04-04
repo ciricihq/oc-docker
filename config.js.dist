@@ -1,0 +1,17 @@
+exports.configuration = {
+  verbosity: 1,
+  baseUrl: 'https://my-components-registry.mydomain.com/',
+  port: 3000,
+  tempDir: './temp/',
+  refreshInterval: 600,
+  pollingInterval: 5,
+  s3: {
+    key: '---key---',
+    secret: '---secret---',
+    bucket: 'ciricistorage',
+    region: 'eu-west-1',
+    path: '//ciricistorage.s3-website-eu-west-1.amazonaws.com',
+    componentsDir: 'components'
+  },
+  env: { name: 'production' }
+}

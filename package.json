@@ -1,0 +1,15 @@
+{
+  "name": "oc-docker",
+  "version": "0.1.0",
+  "description": "OpenComponents registry docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Genar Trias <genar@cirici.com>",
+  "license": "ISC",
+  "dependencies": {
+    "oc": "^0.36.15"
+  }
+}

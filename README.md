@@ -1,2 +1,2 @@
 # oc-docker
-OpenComponents docker image
+OpenComponents registry docker image
