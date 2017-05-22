@@ -1,6 +1,6 @@
 {
   "name": "oc-docker",
-  "version": "0.36.15",
+  "version": "0.37.3",
   "description": "OpenComponents registry docker",
   "main": "index.js",
   "scripts": {
