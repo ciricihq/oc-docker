@@ -10,6 +10,6 @@
   "author": "Genar Trias <genar@cirici.com>",
   "license": "ISC",
   "dependencies": {
-    "oc": "^0.37.3"
+    "oc": "^0.39.8"
   }
 }
