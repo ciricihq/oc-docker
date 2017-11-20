@@ -8,10 +8,14 @@ exports.configuration = {
   s3: {
     key: '---key---',
     secret: '---secret---',
-    bucket: 'your-bucked',
+    bucket: 'your-bucket',
     region: 'eu-west-1',
     path: '//your-bucket.s3-website-eu-west-1.amazonaws.com',
     componentsDir: 'components'
   },
   env: { name: 'production' }
+}
+
+exports.registerPlugins = (registry) => {
+  // You plugins registration code
 }
