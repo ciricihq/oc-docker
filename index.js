@@ -13,4 +13,3 @@ registry.start(function(err, app){
     process.exit(1);
   }
 });
-
